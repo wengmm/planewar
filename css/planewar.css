@@ -1,0 +1,88 @@
+*{margin:0; padding:0;}
+html,body{width:100%; height:100%; overflow: hidden;}
+.main{
+	margin: auto;
+	height: 100%;
+	background: url(../img/bg.jpg) repeat-y;
+	background-position-y: 0px;
+	width: 480px;
+}
+.options{
+	position: absolute;
+	list-style: none;
+	margin: auto;
+	left: 0; right: 0; top: 100px; 
+	width: 200px;
+	height: 300px;
+	
+}
+.options li{
+	border-radius: 5px;
+	box-shadow: 0 0 2px 1px black;
+	float: left;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	line-height: 75px;
+	margin-bottom: 20px;
+	background: #f40;
+	color: white;
+	font: "微软雅黑";
+	font-size: 28px;
+	cursor: pointer;
+}
+.logo{
+	position: absolute;
+	left: 0; right: 0; top: 25%; 
+	margin: auto;
+	width: 428px; height: 104px;
+	background: url(../img/logo.png) no-repeat;	
+}
+.loading{
+	position: absolute;
+	left: 0; right: 0; top: 60%;
+	margin: auto;
+	width: 192px; height: 41px;
+	background: url(../img/loading1.png) no-repeat;
+	/*background-position: 50px;*/
+}
+.my-warplain{
+	position: absolute;
+	width: 98px; height: 122px;
+	background: url(../img/me.png) no-repeat;
+	cursor: none;
+	top:30px;
+}
+.bullet{
+	position: absolute;
+	width: 7px; height: 18px;
+	background: url(../img/bullet.png) no-repeat;
+}
+.bullet_die{
+	position: absolute;
+	width: 41px; height: 39px;
+	background: url(../img/die1.png) no-repeat;
+	margin-left: -18px;
+}
+.bullet_die2{
+	position: absolute;
+	width: 40px; height: 43px;
+	background: url(../img/die2.png) no-repeat;
+	margin-left: -18px;
+}
+.enemy-small{
+	position: absolute;
+	z-index: 1;
+	width: 59px; height: 36px;
+	background: url(../img/plane1.png) no-repeat;
+}
+.enemy-middle{
+	position: absolute;
+	width: 70px; height: 92px;
+	background: url(../img/plane2.png) no-repeat;
+}
+.enemy-large{
+	position: absolute;
+	width:165px; height: 256px;
+	background: url(../img/plane3.png) no-repeat;
+}
